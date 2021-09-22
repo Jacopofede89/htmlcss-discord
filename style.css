@@ -60,6 +60,7 @@ div nav li a {
 #titolo{
     font-size: 50px;
 }
+
 .accedi{
     font-size: 20px;
     padding: 5px;
@@ -88,4 +89,62 @@ div nav li a {
     right: 20%;
     color: white;
     background-color: black;
+}
+
+.sezione{
+    /* debug */
+    width: 100%;
+    height: 800px;
+    background-color:red;
+    border: solid 2px black;
+
+}
+
+.container-foot{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-color:rgba(35,39,42,255);
+}
+
+.text-foot{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: 60%;
+    background-color: blueviolet;
+}
+
+#second{
+    float: right;
+    padding: 30px;
+
+}
+
+section div nav li a {
+    text-decoration: none;
+}
+
+.hr{
+    margin: 300px auto;
+    width: 75%;
+    border: 1px solid rgba(142,161,225,255);
+}
+
+#logo-1{
+    position: absolute;
+    bottom: 5%;
+    left: 100px;
+}
+
+.prova {
+    font-size: 20px;
+    padding: 5px;
+    border-radius:50px;
+    position: absolute;
+    top: 90%;
+    right: 7%;
+    transform: translate(-50%, -50%);
 }
