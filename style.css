@@ -123,13 +123,17 @@ div nav li a {
 
 }
 
-section div nav li a {
+#color{
+    color:rgba(142,161,225,255);
+}
+
+div nav li a {
     text-decoration: none;
 }
 
 .hr{
-    margin: 300px auto;
-    width: 75%;
+    margin: 250px auto;
+    width: 90%;
     border: 1px solid rgba(142,161,225,255);
 }
 
@@ -148,3 +152,23 @@ section div nav li a {
     right: 7%;
     transform: translate(-50%, -50%);
 }
+
+.aside{
+    padding: 30px;
+    font-size: 25px;
+    float: right;
+    margin-top:5px;
+}
+
+#fab{
+    font-size: 20px;
+    color:white;
+   
+    
+}
+
+#fab li i{
+    text-decoration: none;
+
+}
+
